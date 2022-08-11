@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+    <!-- Manual Stylesheet-->
+    <link href="style.css" rel="stylesheet">
+</head>
+
+<body>
+
+    <div class="container">
+        <div class="text-center py-4">
+            <h1>Kent's Currency Converter</h1>
+            <form action="">
+                <div class="py-2">
+                    <h4 class="py-2">Amount to convert</h4>
+                    <input id="amount" type="text">
+                </div>
+                
+                
+                <div class="py-4">
+                    <label for="base">Convert From</label>
+                    <select name="base" id="base">
+                        <option value="ZAR">South African Rand</option>
+                        <option value="CAD">Canadian Dollar</option>
+                        <option value="USD">United States Dollar</option>
+                        <option value="UAH">Ukrainian Hyrvnia</option>
+                        <option value="EUR">Euro</option>
+                    </select>
+                </div>
+                <div class="py-4">
+                    <label for="target">Convert To</label>
+                    <select name="target" id="target">
+                        <option value="ZAR">South African Rand</option>
+                        <option value="CAD">Canadian Dollar</option>
+                        <option value="USD">United States Dollar</option>
+                        <option value="UAH">Ukrainian Hyrvnia</option>
+                        <option value="EUR">Euro</option>
+                    </select>
+                
+                </div>
+                <div class="py-2">
+                    <h4 class="py-2">Equals</h4>
+                    <input id="equals" type="text">
+                </div>
+                <button type="button"id="convert" class="my-4 btn btn-dark">Convert</button>
+            </form>
+        
+
+    </div>
+    </div>
+
+
+
+
+    <script src="script.js"></script>
+</body>
+
+</html>
